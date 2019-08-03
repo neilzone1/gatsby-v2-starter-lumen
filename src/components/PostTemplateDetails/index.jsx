@@ -9,6 +9,12 @@ class PostTemplateDetails extends React.Component {
     const { subtitle, author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
+    
+    const links = {
+      linkedin: author.linkedin,
+      twitter: author.twitter,
+      email: author.email,
+    }
 
     const homeBlock = (
       <div>
@@ -63,15 +69,36 @@ class PostTemplateDetails extends React.Component {
             {tagsBlock}
             <hr />
             <p className="post-single__footer-text">
-              {subtitle}
-              <a
-                href={`https://twitter.com/${author.twitter}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <br /> <strong>{author.name}</strong> on Twitter
-              </a>
+              <em>{subtitle}</em>
             </p>
+              <div className="links">
+                <ul className="links__list">
+                  <li className="links__list-item">
+                    <a
+                      href={`https://www.linkedin.com/in/${links.linkedin}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="icon-linkedin" />
+                    </a>
+                  </li>
+                  <li className="links__list-item">
+                    <a
+                      href={`https://www.twitter.com/${links.twitter}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="icon-twitter" />
+                    </a>
+                  </li>
+                  <li className="links__list-item">
+                    <a href={`mailto:${links.email}`}>
+                      <i className="icon-mail" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              
             {commentsBlock}
           </div>
         </div>
