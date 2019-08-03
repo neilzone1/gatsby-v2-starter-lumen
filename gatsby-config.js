@@ -1,15 +1,15 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://www.neillewin.com'
 
 module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'NeilLewin.com',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'Thoughts, comments and notes from me, Neil Lewin, the owner of Semantic, the friendliest web agency in the UK.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -27,13 +27,14 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Neil Lewin',
+      email: 'neil@semantic.co.uk',
       telegram: '#',
-      twitter: '#',
+      twitter: 'neillewin',
       github: '#',
       rss: '#',
       vk: '#',
+      linkedin: 'neillewin',
     },
   },
   plugins: [
