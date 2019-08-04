@@ -18,11 +18,11 @@ module.exports = {
         path: '/',
       },
       {
-        label: 'About me',
+        label: 'My story',
         path: '/about/',
       },
       {
-        label: 'Contact me',
+        label: 'Get in touch',
         path: '/contact/',
       },
     ],
