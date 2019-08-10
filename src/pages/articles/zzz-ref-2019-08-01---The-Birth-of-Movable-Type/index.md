@@ -1,8 +1,8 @@
 ---
-title: "Johannes Gutenberg: The Birth of Movable Type"
+title: "The Birth of Movable Type"
 date: "2019-08-01T22:12:03.284Z"
 layout: post
-draft: false
+draft: true
 path: "/posts/the-birth-of-movable-type/"
 category: "Typography"
 tags:
