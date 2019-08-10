@@ -15,4 +15,9 @@
         @include line-height(1);
         @include margin(0, 0, 1);
     }
+
+    figure {
+        margin: 0 0 2rem 0;
+        max-width: 350px;
+    }
 }
