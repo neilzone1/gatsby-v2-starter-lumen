@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: url,
     title: 'NeilLewin.com',
     subtitle:
-      'Thoughts, comments and notes from me, Neil Lewin, the owner of Semantic, the friendliest web agency in the UK.',
+      'Thoughts and comments from me, Neil Lewin, the owner of Semantic, the friendliest UK web agency.',
     copyright: '',
     disqusShortname: '',
     menu: [
