@@ -102,6 +102,8 @@ class PostTemplateDetails extends React.Component {
             {commentsBlock}
           </div>
         </div>
+        
+        {homeBlock}
       </div>
     )
   }

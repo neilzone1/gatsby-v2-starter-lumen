@@ -57,4 +57,20 @@
             border-bottom: 1px solid $color-primary;
         }
     }
+
+    
+}
+
+@media only screen and (max-width: 968px) {
+    .post {
+        .links {
+            display: none;
+        }
+    }
+
+    .post-single {
+        .links {
+            display: none;
+        }
+    }
 }
