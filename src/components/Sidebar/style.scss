@@ -76,3 +76,42 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        border-bottom: 1px solid #222;
+
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+
+
+    .menu__list-item {
+        a {
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+
+    .menu__list-item {
+        display: inline-block;
+        float: left;
+        margin: 0 15px 0 0;
+
+        a {
+            padding-bottom: 2px;
+        }
+    }
+
+    .menu__list-item-link--active {
+        border-bottom: 2px solid $color-secondary;
+        color: $color-secondary;
+    }
+}
+
