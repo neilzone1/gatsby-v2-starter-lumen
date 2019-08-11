@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Post from '../components/Post'
 import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 
 class IndexRoute extends React.Component {
   render() {
@@ -26,6 +27,8 @@ class IndexRoute extends React.Component {
             <div className="content__inner">{items}</div>
           </div>
         </div>
+        <hr className="footerClear" />
+        <Footer />
       </Layout>
     )
   }

@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Footer from '../components/Footer'
 import PostTemplateDetails from '../components/PostTemplateDetails'
 
 class PostTemplate extends React.Component {
@@ -20,6 +21,8 @@ class PostTemplate extends React.Component {
           </Helmet>
           <PostTemplateDetails {...this.props} />
         </div>
+        <hr className="footerClear" />
+        <Footer />
       </Layout>
     )
   }

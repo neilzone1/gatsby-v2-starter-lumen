@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 import CategoryTemplateDetails from '../components/CategoryTemplateDetails'
 
 class CategoryTemplate extends React.Component {
@@ -17,6 +18,8 @@ class CategoryTemplate extends React.Component {
           <Sidebar {...this.props} />
           <CategoryTemplateDetails {...this.props} />
         </div>
+        <hr className="footerClear" />
+        <Footer />
       </Layout>
     )
   }

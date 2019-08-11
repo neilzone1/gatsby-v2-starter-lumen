@@ -10,7 +10,7 @@ module.exports = {
     title: 'NeilLewin.com',
     subtitle:
       'Thoughts, comments and notes from me, Neil Lewin, the owner of Semantic, the friendliest web agency in the UK.',
-    copyright: '© All rights reserved.',
+    copyright: '',
     disqusShortname: '',
     menu: [
       {

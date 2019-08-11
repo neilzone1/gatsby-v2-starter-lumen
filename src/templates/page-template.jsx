@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Footer from '../components/Footer'
 import PageTemplateDetails from '../components/PageTemplateDetails'
 
 class PageTemplate extends React.Component {
@@ -20,6 +21,8 @@ class PageTemplate extends React.Component {
           </Helmet>
           <PageTemplateDetails {...this.props} />
         </div>
+        <hr className="footerClear" />
+        <Footer />
       </Layout>
     )
   }

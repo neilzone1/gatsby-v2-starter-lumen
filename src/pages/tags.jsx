@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import kebabCase from 'lodash/kebabCase'
 import Layout from '../components/Layout'
 import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 
 class TagsRoute extends React.Component {
   render() {
@@ -39,6 +40,8 @@ class TagsRoute extends React.Component {
             </div>
           </div>
         </div>
+        <hr className="footerClear" />
+        <Footer />
       </Layout>
     )
   }

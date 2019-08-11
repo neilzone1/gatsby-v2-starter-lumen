@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 import TagTemplateDetails from '../components/TagTemplateDetails'
 
 class TagTemplate extends React.Component {
@@ -17,6 +18,8 @@ class TagTemplate extends React.Component {
           <Sidebar {...this.props} />
           <TagTemplateDetails {...this.props} />
         </div>
+        <hr className="footerClear" />
+        <Footer />
       </Layout>
     )
   }

@@ -1,0 +1,56 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.footer {
+    background: $color-gray-bg;
+    border-top: 1px solid $color-gray;
+    padding: 25px 0;
+    text-align: center;
+    width: 100%;
+
+    .links {
+        margin-bottom: 18px;
+
+        .links__list {
+            display: inline;
+            text-align: center;
+
+            .links__list-item {
+                display: inline;
+            }
+        }
+    }
+}
+
+.footer__copyright {
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+@include breakpoint-sm {
+    .footer {
+    }
+}
+
+@include breakpoint-md {
+    .footer {
+        background: none;
+        border-top: 1px solid darken($color-gray-bg, 5%);
+
+        .links {
+            display: none;
+        }
+
+        .footer__copyright {
+            color: $color-gray;
+        }
+    }
+}
+
+
+.footerClear {
+    background: none;    
+    content: "";
+    display: table;
+    clear: both;
+}
