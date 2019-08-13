@@ -11,7 +11,11 @@ tags:
 description: "This summer, I'm trying out a loss aversion life-hack to see if it can help me form new healthier habits."
 ---
 
-Amos Tversky and Daniel Kahneman coined the term _loss aversion_ back in the 1970s.  The psychological theory goes that you feel the pain of losing something you already have more than the joy at getting a new thing.  This works in all aspects of life, and you'll often see it done in marketing or sales processes.  Think about the Tempur mattress free 100 night trial - an expensive purchase, but you'll soon feel the pain of losing it after the trial.
+Amos Tversky and Daniel Kahneman coined the term _loss aversion_ back in the 1970s.  The psychological theory goes that you feel the pain of losing something you already have more than the joy at getting a new thing.  
+
+This works in all aspects of life, and you'll often see it done in marketing or sales processes.  The free 100-night trial of Tempur mattresses is a good example - an expensive purchase, but you'll soon feel the pain of losing it after the trial.
+
+![My LEGO model treat... the one I stand to lose if it all goes wrong](./apollo-30.jpg)
 
 Anyway, over the past year, I've been struggling to keep the weight off and make time for exercise, as commitments keep building.
 
