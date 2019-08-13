@@ -1,6 +1,6 @@
 ---
 title: "Book Summary - Miracle Morning"
-date: "2019-08-12T12:12:03.284Z"
+date: "2019-07-12T12:12:03.284Z"
 layout: post
 draft: false
 path: "/posts/2019/book-summary-miracle-morning"

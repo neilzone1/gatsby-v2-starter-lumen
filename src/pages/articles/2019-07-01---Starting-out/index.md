@@ -1,6 +1,6 @@
 ---
 title: "Getting started"
-date: "2019-08-01T12:12:03.284Z"
+date: "2019-07-01T12:12:03.284Z"
 layout: post
 draft: false
 path: "/posts/2019/starting-out"
