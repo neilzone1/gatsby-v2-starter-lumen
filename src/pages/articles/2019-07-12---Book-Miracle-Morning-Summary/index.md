@@ -1,5 +1,5 @@
 ---
-title: "Book Summary - Miracle Morning"
+title: "July Book Summary - Miracle Morning"
 date: "2019-07-12T12:12:03.284Z"
 layout: post
 draft: false

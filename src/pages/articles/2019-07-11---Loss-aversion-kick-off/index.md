@@ -1,6 +1,6 @@
 ---
 title: "Apollo 30 - My Loss Aversion Experiment, with a twist"
-date: "2019-07-16T12:12:03.284Z"
+date: "2019-07-11T12:12:03.284Z"
 layout: post
 draft: false
 path: "/posts/2019/loss-aversion-kick-off"

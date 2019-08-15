@@ -7,7 +7,7 @@ path: "/posts/2019/starting-out"
 category: "Updates"
 tags:
   - "updates"
-description: "This is the start of the latest iteration of my blog.  The idea is to strip it right back, and just focus on the content.  The platform is simple, the design is minimal, but my hope is that over the years it will develop to collect together various notes and thoughts, which maybe other people might find useful."
+description: "This is the start of the latest iteration of my blog.  The idea is to strip it right back, and just focus on the content.  The platform is simple, the design is uncomplicated, but my hope is that over the years it will develop to collect together various notes and thoughts, which maybe other people might find useful."
 ---
 
 Blogging and writing online is hard.  I've always found it a challenge to get down and write for myself, and looking back, I think there are a couple of reasons for this: 
